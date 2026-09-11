@@ -1,0 +1,37 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Private or internal project material
+data/
+notebooks/
+versions/
+specs/
+
+# Local environments, caches, and generated artifacts
+.venv/
+.pytest_cache/
+mlartifacts/
+exports/
+outputs/models/
+outputs/reports/
+src/_*
+
+# Root-level analysis/reference files not intended for publication
+# /final_loan_analysis.ipynb
+*final_analysis*.ipynb
+1_start*_here*
+DS-Framework*
+*_Interview-July2026.code-workspace
+*.code-workspace
+Mock_interview*.mp4
+
+# Python bytecode and tooling metadata
+__pycache__
+*.py[cod]
+.coverage
+htmlcov
+.mypy_cache
+.ruff_cache
+
