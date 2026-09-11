@@ -3,7 +3,7 @@
 
 This repository contains a reusable tabular machine-learning workflow developed around the loan-approval classification dataset. The current implementation is dataset-specific, but the intended structure separates reusable pipeline behavior from configuration and human-reviewed modeling decisions.
 
-## Current project structureS
+## Current project structure
 
 ```text
 data/                    Source and prepared datasets
