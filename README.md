@@ -287,16 +287,16 @@ These figures establish the amount of incomplete source data present during mode
 --- 
 ## Reproducibility and Artifact Checklist
 
-- [ ] README links and image references resolve correctly.
-- [ ] `final_loan_analysis.ipynb` contains the final documented workflow and saved outputs.
-- [ ] `src/data_config.py` contains the canonical six-feature classification configuration.
-- [ ] `BASELINE_MODEL_SPECS` remains available for historical reproducibility.
-- [ ] Focused automated tests pass.
-- [ ] Notebook code cells compile successfully.
-- [ ] Final metrics in the README match the notebook outputs.
-- [ ] No credentials, raw data, private identifiers, or internal-only files are published.
-- [ ] Excluded folders and files are covered by `.gitignore`.
-- [ ] Aggregate figures are safe for the intended audience and do not expose row-level data.
+- [X] README links and image references resolve correctly.
+- [X] `final_loan_analysis.ipynb` contains the final documented workflow and saved outputs.
+- [X] `src/data_config.py` contains the canonical six-feature classification configuration.
+- [X] `BASELINE_MODEL_SPECS` remains available for historical reproducibility.
+- [X] Focused automated tests pass.
+- [X] Notebook code cells compile successfully.
+- [X] Final metrics in the README match the notebook outputs.
+- [X] No credentials, raw data, private identifiers, or internal-only files are published.
+- [X] Excluded folders and files are covered by `.gitignore`.
+- [X] Aggregate figures are safe for the intended audience and do not expose row-level data.
 
 ---
 
